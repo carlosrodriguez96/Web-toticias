@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/purpose.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+</head>
+
+<body onload="encabezados()">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="imagenes/blog.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+      Noticias al día
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="tecnologia/index.html">TECNOLOGÍA<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="deportes/index.html">DEPORTES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="politica/index.html">POLÍTICA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="economia/index.html">ECONOMÍA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="cultura/index.html">CULTURA</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container main">
+
+      <div class="row ">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/carousel/deportes.jpeg" class="img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Radiografía de una máquina llamada Liverpool</h5>
+                  <p>El mejor equipo del mundo en el momento, de la mano de Jürgen Klopp, patentó una manera de jugar.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/carousel/tecnologia.jpeg" class="img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Así gastan su dinero algunos magnates tecnológicos</h5>
+                  <p>Sus costosas compras van de Islas privadas y relojes que sirven por 10.000 años a yates exclusivos.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/carousel/politica.jpeg" class="img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Vicepresidencia y gobernadores firman pacto por la transparencia</h5>
+                  <p>El acto se realiza en Cartagena, sede de la cumbre de gobernadores.</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="imagenes/carousel/economia.jpeg" class="img-fluid">
+
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/carousel/cultura.jpeg" class="img-fluid" alt="...">
+
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/carousel/politica.jpeg" class="img-fluid" alt="...">
+
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <br>
+      </div>
+      <div class="d-sm-flex align-items-center justify-content-between mb-4 card">
+        <h1 class="h3 mb-0 text-gray-800">Titulares</h1>
+      </div>
+      <div class='row'>
+        <div class='card card-progress border'>
+          <div class='progress'>
+            <div class='progress-bar bg-primary' role='progressbar' style='width: 100%' aria-valuenow='25'
+              aria-valuemin='0' aria-valuemax='100'></div>
+          </div>
+          <div class='row card-body'>
+            <div class='col-sm-5'>
+              <div class='card bg-dark text-white'>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <!-- <iframe class="embed-responsive-item" src="https://youtu.be/YkTCk1vG1-A" allowfullscreen></iframe> -->
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YkTCk1vG1-A" frallowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class='col-sm-7'>
+
+              <h4 class='text-primary'>Por Covid-19 piden aplazar eventos de más de 1.000 personas en Bogotá
+              </h4>
+
+              <p><small>Distrito declaró alerta amarilla para prevenir contagios en la ciudad.</small></p>
+              <p>
+                Tras una reunión con expertos la alcaldesa Claudia López declaró alerta amarilla para implementar medidas adicionales de cuidado, prevención y tratamiento frente al COVID-19 en Bogotá. 
+
+Según la mandaria, este jueves se firmará un decreto que tendrá vigencia durante dos meses con el que se reglamentarán las medidas anunciadas. 
+
+"Tenemos un desafío de ciudad grande que es atender de manera adecuada una pandemia como la ha declarado por  la OMS ante el  Coronavirus, eso quiere decir que cualquier ser humano puede adquirir esta enfermedad hoy", esto afirmó López al referirse a la causa de la declaración de la alerta. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="encabezado">
+
+      </div>
+
+
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="navbar-brand" href="../index.html">
+            <img src="imagenes/blog.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+            Noticias al día
+          </a>
+          <p class="text-muted">
+            SIGUENOS EN:
+          </p>
+
+          <p><i class="fab fa-facebook fa-2x text-primary"></i> <i class="fab fa-twitter fa-2x text-info"></i> <i
+              class="fab fa-instagram fa-2x text-danger"></i> <i class="fab fa-youtube fa-2x text-danger"></i></p>
+        </div>
+        <div class="col-md-4">
+          <br>
+          <p class="text-muted">
+            Contáctanos:
+          </p>
+
+          <p><a href="mailto:esemismo96@gmail.com"><i class="far fa-envelope fa-2x text-danger"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=573113073371"><i
+                class="fab fa-whatsapp fa-2x text-success"></i></a> <br>
+            <!-- <i class="fab fa-instagram fa-2x text-danger"></i><br>
+          <i class="fab fa-youtube fa-2x text-danger"></i></p> -->
+        </div>
+      </div>
+
+      <div class="copyright text-center my-auto">
+        <span>Copyright &copy; Noticias al día 2020</span>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+</body>
+
+<script src="js/titulares.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
